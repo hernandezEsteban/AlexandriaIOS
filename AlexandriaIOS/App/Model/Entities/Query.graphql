@@ -1,0 +1,10 @@
+query login {
+  logIn(logInInput: {
+    email: "py@email.com"
+    password: "123"
+  }) {
+    name
+    lastName
+    isAdmin
+  }
+}
