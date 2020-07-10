@@ -11,17 +11,12 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var txtEmail: UITextField!
-    @IBOutlet weak var lblEmail: UILabel!
-    @IBOutlet weak var lblPassword: UILabel!
     @IBOutlet weak var txtPassword: UITextField!
     @IBOutlet weak var btnLogin: UIButton!
    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        lblEmail.text = "Correo"
-        lblPassword.text = "Contrasena"
         txtEmail.text = "py@email.com"
         txtPassword.text = "123"
     }
